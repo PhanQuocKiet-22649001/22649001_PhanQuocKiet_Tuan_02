@@ -1,0 +1,57 @@
+:root {
+    --color-text-one: #9a4541;
+    --color-bg-one: #F5F5DB;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 0;
+}
+
+.back-to-top {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* Header */
+header {
+    text-align: center;
+    color: var(--color-text-one);
+    text-shadow: 10px 8px 8px var(--color-text-one);
+}
+
+.inner-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 50px;
+}
+
+.inner-menu ul li {
+    margin-right: 10px;
+}
+
+.inner-menu ul li a {
+    text-decoration: none;
+}
+/* End Header */
+
+.paragraph h1 {
+    color: var(--color-text-one);
+    background: var(--color-bg-one);
+    margin: 0;
+}
+.paragraph a {
+    color: var(--color-text-one);
+    font-weight: bold;
+}
+
+.paragraph ul {
+    margin: 0;
+}
+
+

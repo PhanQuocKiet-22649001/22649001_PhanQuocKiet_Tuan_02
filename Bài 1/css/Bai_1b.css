@@ -1,0 +1,80 @@
+:root {
+    --color-text-one: #9a4541;
+    --color-bg-one: #F5F5DB;
+    --color-bg-two: #ED9496;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 0;
+}
+
+.back-to-top {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* Header */
+header {
+    text-align: center;
+    color: var(--color-text-one);
+    text-shadow: 10px 8px 8px var(--color-text-one);
+}
+
+.inner-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: var(--color-bg-two);
+    text-align: center;
+    justify-content: center;
+}
+
+.inner-menu ul li {
+    margin-right: 10px;
+    border-right: 1px solid #000;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    
+}
+
+.inner-menu ul li:nth-child(1){
+    position: relative;
+}
+
+.inner-menu ul li:nth-child(1) i {
+    position: absolute;
+    right: 20px;
+    top: 7px;
+}
+
+.inner-menu ul li:nth-child(5) {
+    display: flex;
+    border-right: none;
+    padding-left: 20px;
+}
+
+.inner-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+/* End Header */
+
+.paragraph h1 {
+    color: var(--color-text-one);
+    background: var(--color-bg-one);
+    margin: 0;
+}
+.paragraph a {
+    color: var(--color-text-one);
+    font-weight: bold;
+}
+
+.paragraph ul {
+    margin: 0;
+}
